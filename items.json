@@ -1,0 +1,141 @@
+{
+  "itemsHome": [
+    {
+      "id": 1,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "Layer_2.png",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "Layer_3.png",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "Layer_4.png",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "Layer_5.png",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "Layer_6.png",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "Layer_7.png",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "Layer_8.png",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "Layer_9.png",
+      "quantity": 1
+    }
+  ],
+  "itemsMen": [
+    {
+      "id": 1,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "1.png",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "2.png",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "3.png",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "5.png",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "5.png",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "7.png",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "7.png",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "8.png",
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "8.png",
+      "quantity": 1
+    }
+  ],
+  "userCart": [
+    {
+      "id": 1,
+      "productName": "Rebox Zane",
+      "productPrice": "$250.00",
+      "productImgSrc": "1.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "productName": "Rebox Zane",
+      "productPrice": "$250.00",
+      "productImgSrc": "2.jpg",
+      "quantity": 1
+    }
+  ]
+}
