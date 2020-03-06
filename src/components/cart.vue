@@ -10,34 +10,22 @@
                     :product="item.productName"
                     :price="item.productPrice">
                         <div class="drop__photo">
-                            <a href="#"><img :src="require('../img/cart/' + item.productImgSrc)" alt="photo" class="drop__imgcart"></a>
+                            <a href="#"><img :src="require('../img/cart/' + item.productImgSrc)" alt="photo" class="drop__imgcart" style="width: 72px; height: 85px"></a>
                         </div>
                         <div class="drop__text">
                             <a href="#"><h3 class="drop__title">{{item.productName}}</h3></a>
                             <p class="drop__price">{{item.productPrice}}</p>
                         </div>
                         <div class="drop__pic">
-                            <p class="drop__x">x</p>
+                            <p class="drop__x" @click="remove(product)">x</p>
                         </div>
                     </div>
-                    <!-- <div class="drop__item drop__cart_flex">
-                        <div class="drop__photo">
-                            <a href="#"><img src="../img/cart/2.jpg" alt="photo" class="drop__imgcart"></a>
-                        </div>
-                        <div class="drop__text">
-                            <a href="#"><h3 class="drop__title">Rebox Zane</h3></a>
-                            <p class="drop__price">1  x   $250</p>
-                        </div>
-                        <div class="drop__pic">
-                            <p class="drop__x">x</p>
-                        </div>
-                    </div> -->
                     <div class="drop__item item__summ">
                         <div class="drop__total">
                             <h3 class="drop__total">total</h3>
                         </div>
                         <div class="drop__total">
-                            <h3 class="drop__total_price">$500</h3>
+                            <h3 class="drop__total_price">Пока не могу получить итог</h3>
                         </div>
                     </div>
                     <div class="drop__btm">
@@ -60,7 +48,7 @@ export default {
         }
     },
     methods: {
-      addToCart(product) {
+    addToCart(product) {
             let find = this.cartItems.find(el => el.id === product.id);
             if(find){
                 this.$root.putJson(`http://localhost:3000/userCart/${find.id}`, {quantity: 1});
@@ -75,9 +63,24 @@ export default {
                         }
                     });
             }       
-                  // this.cartItems.push(product);
-                  // console.log(this.cartItems);
-        }
+    },
+    // remove(product) {
+    //         // if (product.quantity > 1) {
+    //         //     this.$root.putJson(`http://localhost:3000/userCart${product.id}`, {quantity: -1})
+    //         //         .then(data => {
+    //         //             if (data.result === 1) {
+    //         //                 product.quantity--;
+    //         //             }
+    //         //         });
+    //         // } else {
+    //             this.$root.deleteJson(`http://localhost:3000/userCart${product.id}`)
+    //                 .then(data => {
+    //                     if (data.result === 1) {
+    //                         this.cartItems.splice(this.cartItems.indexOf(product), 1);
+    //                     }
+    //                 });
+    //         // }
+    // }
     },
     
     created() {

@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="header-right">
-                    <app-cart></app-cart>
+                    <app-cart ref="cart"></app-cart>
                     <!-- <div class="header-right-cart">
                         <a href="women.html" class="header-right-cart-link"><img src="../img/header/cart.svg" alt="cart_img"></a>
                         <div class="drop__cart">

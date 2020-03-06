@@ -79,9 +79,9 @@ new Vue({
                     "Content-Type": "application/json"
                 },
             }).then(result => result.json())
-                .catch(error => {
-                    this.$refs.error.setError(error);
-                });
+                // .catch(error => {
+                //     this.$refs.error.setError(error);
+                // });
         },
     },
 })

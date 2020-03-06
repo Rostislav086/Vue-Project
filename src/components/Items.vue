@@ -20,7 +20,7 @@
                         <h2 class="fetured-items-product-headline">{{product.productName}}</h2>
                         <p class="fetured-items-product-price">{{product.productPrice}}</p></a>
                     </div>
-                      <a @click="$root.cart.addToCart(product)"  class="fetured-items-product-add" ><img src="../img/clothes/cart.png" alt="cart" class="fetured-items-product-add-img">Add to Cart</a>
+                      <a @click="cartAPI.addToCart(product)"  class="fetured-items-product-add" ><img src="../img/clothes/cart.png" alt="cart" class="fetured-items-product-add-img">Add to Cart</a>
                 </div>
               </div>               
           </div>
@@ -35,7 +35,8 @@ export default {
     data() {
         return {
             products: [],
-            cartAPI: this.$parent,
+            cartAPI: this.$parent.$refs.header.$refs.cart,
+            removeAPI: this.$parent.$refs.header.$refs.cart,
         }
     },
 

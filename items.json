@@ -124,18 +124,32 @@
   ],
   "userCart": [
     {
+      "quantity": 1,
       "id": 1,
-      "productName": "Rebox Zane",
-      "productPrice": "$250.00",
-      "productImgSrc": "1.jpg",
-      "quantity": 1
+      "productName": "Mango  People  T-shirt",
+      "productPrice": 52,
+      "productImgSrc": "Layer_2.png"
     },
     {
-      "id": 2,
-      "productName": "Rebox Zane",
-      "productPrice": "$250.00",
-      "productImgSrc": "2.jpg",
-      "quantity": 1
+      "quantity": 1,
+      "id": 3,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": 52,
+      "productImgSrc": "Layer_4.png"
+    },
+    {
+      "quantity": 1,
+      "id": 7,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": 52,
+      "productImgSrc": "Layer_8.png"
+    },
+    {
+      "quantity": 1,
+      "id": 6,
+      "productName": "Mango  People  T-shirt",
+      "productPrice": "$52.00",
+      "productImgSrc": "Layer_7.png"
     }
   ]
 }
