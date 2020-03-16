@@ -6,7 +6,7 @@ app.use(express.json());
 app.use('/', express.static('./src'));
 
 app.get('/api/items', (req, res)=> {
-    fs.readFile('./src/items.json', 'utf-8', (err, data)=> {
+    fs.readFile('./items.json', 'utf-8', (err, data)=> {
         if(err) {
             res.send(JSON.stringify({result:0, text: err}));
         }else {

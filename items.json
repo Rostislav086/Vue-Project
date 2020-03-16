@@ -132,24 +132,10 @@
     },
     {
       "quantity": 1,
-      "id": 3,
-      "productName": "Mango  People  T-shirt",
-      "productPrice": 52,
-      "productImgSrc": "Layer_4.png"
-    },
-    {
-      "quantity": 1,
-      "id": 7,
-      "productName": "Mango  People  T-shirt",
-      "productPrice": 52,
-      "productImgSrc": "Layer_8.png"
-    },
-    {
-      "quantity": 1,
-      "id": 6,
+      "id": 2,
       "productName": "Mango  People  T-shirt",
       "productPrice": "$52.00",
-      "productImgSrc": "Layer_7.png"
+      "productImgSrc": "Layer_3.png"
     }
   ]
 }
