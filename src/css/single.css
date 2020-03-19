@@ -1,0 +1,158 @@
+.slider {
+  position: relative; }
+  .slider-block-bc {
+    border: 1px solid #eaeaea;
+    background-color: #f7f7f7; }
+
+.d-block {
+  margin-top: 11px;
+  margin-bottom: 42px; }
+
+.collection {
+  position: relative;
+  top: -80px;
+  text-align: center;
+  width: 1141px;
+  border: 1px solid #eaeaea;
+  background-color: #fff; }
+
+.women-text {
+  display: inline-block;
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 15px;
+  margin-top: 73px; }
+
+.collection-headline_text {
+  color: #4d4d4d;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 18px; }
+
+.collection_text {
+  display: inline-block;
+  margin-top: 28px;
+  color: #b9b9b9;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .collection_text_p {
+    width: 618px;
+    margin-top: 67px;
+    color: #5e5e5e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify; }
+
+.collection_word {
+  color: #2f2f2f;
+  margin-right: 44px; }
+
+.collection_word:last-child {
+  margin-right: 0; }
+
+.collection-text_price {
+  width: 642px;
+  margin-top: 37px;
+  color: #ef5b70;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 43px;
+  border-bottom: 1px solid #eaeaea; }
+
+.collection-choose {
+  display: flex;
+  margin-top: 63px;
+  justify-content: center; }
+
+.choose {
+  text-align: left;
+  margin: 0 53px 0 0; }
+  .choose:last-child {
+    margin-right: 0; }
+  .choose_text {
+    color: #2f2f2f;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 16px; }
+  .choose_add {
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    padding: 0 15px 0 15px;
+    color: #bcbcbc;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400; }
+  .choose_add::-webkit-calendar-picker-indicator {
+    opacity: 100; }
+
+.collection-bt {
+  margin-top: 28px;
+  width: 585px;
+  height: 55px;
+  border: 1px solid #ef5b70;
+  color: #ef5b70;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 122px; }
+  .collection-bt_img {
+    margin-right: 15px; }
+
+.like {
+  text-align: center;
+  color: #4d4d4d;
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase; }
+  .like_text_headline {
+    color: #4d4d4d;
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 119px;
+    margin-bottom: 72px; }
+  .like_catalog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .like_catalog_product {
+    text-align: left; }
+  .like_catalog_product:hover {
+    box-shadow: 0 0 10px #000; }
+  .like_catalog_product:hover .like_catalog_img {
+    filter: brightness(50%); }
+  .like_catalog_img {
+    height: 290px; }
+
+.catalog_name {
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 18px;
+  padding-left: 15px; }
+
+.catalog_price {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 15px; }
